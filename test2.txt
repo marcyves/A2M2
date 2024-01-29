@@ -2,5 +2,6 @@ What is the purpose of this module?
 A. Play with Python
 B. Help with AIKEN format for Moodle
 C. Check basic consistency
-D. All of the above
-ANSWER: D
+D. None of the above
+E. All of the above
+ANSWER: E
