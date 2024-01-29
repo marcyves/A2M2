@@ -56,8 +56,7 @@ class aiken:
                         line_nb += 1
                         print("▪️ {}".format(line), end='')
 
-        print("Il y a {}  questions et \n {} réponses A\n {} réponses B\n {} réponses C\n {} réponses D\n {} réponses E".format(line_nb, count_A, count_B, count_C, count_D, count_E))
-        print("Controle : {}".format(count_A+count_B+count_C+count_D+count_E))
+        print("\nIl y a {}  question(s) et {} réponse(s) répartie(s) comme suit :\n\tA : {}\n\tB : {}\n\tC : {}\n\tD : {}\n\tE : {}\n".format(line_nb, count_A+count_B+count_C+count_D+count_E, count_A, count_B, count_C, count_D, count_E))
 
 if __name__ == '__main__':
 
